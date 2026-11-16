@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Armenisch lernen</title>
+  <meta name="description" content="Ostarmenisch lernen in 10–20 Minuten am Tag – Alphabet, Wortschatz, Sätze und Aussprache.">
+  <meta name="theme-color" content="#b23a2e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Armenisch">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="app" class="app"></main>
+  <nav class="tabbar">
+    <a href="#/home" data-v="home"><span>🏠</span>Heute</a>
+    <a href="#/course" data-v="course"><span>📚</span>Kurs</a>
+    <a href="#/alphabet" data-v="alphabet"><span lang="hy">Ա</span>Alphabet</a>
+    <a href="#/pron" data-v="pron"><span>🗣️</span>Aussprache</a>
+    <a href="#/settings" data-v="settings"><span>⚙️</span>Mehr</a>
+  </nav>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="js/content.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
